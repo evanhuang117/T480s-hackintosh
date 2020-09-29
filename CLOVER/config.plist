@@ -614,24 +614,18 @@
 		<string>0x02</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
+		<key>Mobile</key>
+		<true/>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>***REMOVED***</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,4</string>
-		<key>SmUUID</key>
-		<string>***REMOVED***</string>
-		<key>Mobile</key>
-		<true/>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>EfiVersion</key>
 		<string>1037.80.41.0.0</string>
-		<key>SerialNumber</key>
-		<string>***REMOVED***</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -641,8 +635,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>***REMOVED***</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
