@@ -18,6 +18,7 @@
  - HiDPI scaling
  - Microphone
  - Speakers 
+ - USB
  - Airdrop, Handoff, Sidecar wireless and wired
  - Wifi
  - Ethernet
@@ -35,6 +36,5 @@
 ## Untested
  - Headphone jack
  - SD card
- - USB
  - USB C output
  - Thunderbolt
