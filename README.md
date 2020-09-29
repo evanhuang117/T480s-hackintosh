@@ -11,7 +11,7 @@
 | Wifi | Fenvi BCM94352Z DW1560 |
 
 ## Working
- Webcam 
+ - Webcam 
  - Trackpoint/touchpad 
 	 - middle scroll is extremely fast and triggers clicking action
 	 - All gestures working natively
