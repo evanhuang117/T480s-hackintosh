@@ -38,3 +38,11 @@
  - SD card
  - USB C output
  - Thunderbolt
+
+## Repos I used
+
+[https://github.com/mohamedspicer/hackintosh-T480s](https://github.com/mohamedspicer/hackintosh-T480s)
+[https://github.com/kk1987/T480s-hackintosh/](https://github.com/kk1987/T480s-hackintosh/)
+[https://github.com/lisovskiy01/T480s-hackintosh](https://github.com/lisovskiy01/T480s-hackintosh)
+[https://github.com/beele/thinkpad-t480-hackintosh](https://github.com/beele/thinkpad-t480-hackintosh)
+[https://github.com/tienhuynh5312/ThinkPad-T480-Hackintosh](https://github.com/tienhuynh5312/ThinkPad-T480-Hackintosh)
