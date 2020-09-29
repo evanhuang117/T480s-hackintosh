@@ -26,7 +26,7 @@
  - Power management is good, especially with undervolting
 	 - ~6hr+ of battery life, idle drain <3w
  - iMessage, Facetime, App Store
- - Computer science major street cred++++++++
+ - CS major street cred++++++++
 
 ## Not working
  - Constant wakes from sleep (DSDT/SSDT problem with USB I think)
