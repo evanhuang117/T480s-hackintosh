@@ -1,9 +1,7 @@
-# T480s-hackintosh
-Clover EFI folder for my T480s running Catalina
 
 
-
-| Specs ||
+## Specs
+|||
 |--|--|
 | CPU | i7-8650u |
 | NVME 2280 | Adata XPG8200 (1tb) - Windows|
@@ -12,8 +10,8 @@ Clover EFI folder for my T480s running Catalina
 | Display | WQHD |
 | Wifi | Fenvi BCM94352Z DW1560 |
 
-Working
- - Webcam 
+## Working
+ Webcam 
  - Trackpoint/touchpad 
 	 - middle scroll is extremely fast and triggers clicking action
 	 - All gestures working natively
@@ -30,11 +28,11 @@ Working
  - iMessage, Facetime, App Store
  - Computer science major street cred++++++++
 
-Not working
+## Not working
  - Constant wakes from sleep (DSDT/SSDT problem with USB I think)
  - Brightness keys (another ACPI problem)
 
-Untested
+## Untested
  - Headphone jack
  - SD card
  - USB
