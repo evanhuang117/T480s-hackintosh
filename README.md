@@ -1,4 +1,4 @@
-
+Full hotpatch configuration. Need to make a custom SSDT for USB to fix sleep problems.
 
 ## Specs
 |||
