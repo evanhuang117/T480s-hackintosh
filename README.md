@@ -1,4 +1,4 @@
-Full hotpatch configuration. Need to make a custom SSDT for USB to fix sleep problems.
+Full hotpatch configuration.
 
 ## Specs
 |||
@@ -13,7 +13,7 @@ Full hotpatch configuration. Need to make a custom SSDT for USB to fix sleep pro
 ## Working
  - Webcam 
  - Trackpoint/touchpad 
-	 - middle scroll is extremely fast and triggers clicking action
+	 - middle scroll is extremely fast and triggers clicking action (ACPI or VoodooPS2 I think)
 	 - All gestures working natively
  - HiDPI scaling
  - Microphone
@@ -26,12 +26,17 @@ Full hotpatch configuration. Need to make a custom SSDT for USB to fix sleep pro
  - Volume keys
  - Power management is good, especially with undervolting
 	 - ~6hr+ of battery life, idle drain <3w
+ - Got sleep working with a custom hotpatch
+ 	 - Custom USB SSDT patch -> this may need to be changed depending on setup, use Hackintool it's easy
+  	 - Completely disabled wake on USB (doesn't matter anyways as its a laptop)
+	 - Rename GPRW to XPRW and create an XPRW SSDT to override the original method
  - iMessage, Facetime, App Store
  - CS major street cred++++++++
 
 ## Not working
- - Constant wakes from sleep (DSDT/SSDT problem with USB I think)
- - Brightness keys (another ACPI problem)
+ - Power button LED flashes after waking from sleep
+ - Brightness keys (ACPI problem)
+ 	 - this is very weird because I have the correct SSDT hotpatch for fn keys...
 
 ## Untested
  - Headphone jack
