@@ -1,4 +1,4 @@
-Full hotpatch configuration. Sleep is working but I completely disabled hibernate in my attempts to fix sleep issues. Not messing with hibernation right now, sleep is good enough. Undervolt works really well with voltageshift, running -80mv on CPU/Cache, -30mv on GPU, 20w/25w short/long PL.
+Full hotpatch configuration. Sleep is working but I completely disabled hibernate in my attempts to fix sleep issues. Not messing with hibernation right now, sleep is good enough. Undervolt works really well with voltageshift, running -80mv on CPU/Cache, -30mv on GPU, 20w/25w short/long PL. Took a longgggg time to get to this point... safe to say I'm not excited for Big Sur - I might switch to Opencore
 
 ## Specs
 |||
