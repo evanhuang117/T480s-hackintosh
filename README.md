@@ -38,12 +38,12 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
  - Power button LED flashes after waking from sleep
  - Brightness keys (ACPI problem)
  	 - this is very weird because I have the correct SSDT hotpatch for fn keys...
+ - Thunderbolt 3 - instant kernel panic, have to do another ACPI patch unfortunately
 
 ## Untested
  - Headphone jack
  - SD card
  - USB C output
- - Thunderbolt
 
 ## Sleep Settings
 
