@@ -675,7 +675,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>***REMOVED***</string>
+		<string></string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
