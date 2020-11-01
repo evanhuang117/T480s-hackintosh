@@ -38,6 +38,7 @@
 			<string>SSDT.aml</string>
 			<string>SSDT-XCPM.aml</string>
 			<string>SSDT-PluginType1.aml</string>
+			<string>SSDT-TB3.aml</string>
 		</array>
 		<key>Comment-DisabledAML</key>
 		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
@@ -217,6 +218,28 @@
 					<key>Comment</key>
 					<string>rename GPRW to XPRW</string>
 				</dict>
+				<dict>
+					<key>Find</key>
+					<data>X1JNVg==</data>
+					<key>Replace</key>
+					<data>WFJNVg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>(RP15 only) Rename _RMV to XRMV USB-C hot plug support</string>
+					<key>TgtBridge</key>
+					<data>UlAwNQ==</data>
+				</dict>
+				<dict>
+					<key>Find</key>
+					<data>pABYVEJU</data>
+					<key>Replace</key>
+					<data>pABZVEJU</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
+				</dict>
 			</array>
 			<key>Fixes</key>
 			<dict>
@@ -316,7 +339,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
+				<string>Inject &quot;name&quot; as (data)&quot;#display&quot; to disable graphics drivers on NVidia</string>
 				<key>Value</key>
 				<data>I2Rpc3BsYXkA</data>
 				<key>Disabled</key>
@@ -328,7 +351,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
+				<string>Inject &quot;IOName&quot; as &quot;#display&quot; to disable graphics drivers on NVidia</string>
 				<key>Value</key>
 				<string>#display</string>
 				<key>Disabled</key>
@@ -352,7 +375,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on AMD</string>
+				<string>Inject &quot;name&quot; as (data)&quot;#display&quot; to disable graphics drivers on AMD</string>
 				<key>Value</key>
 				<data>I2Rpc3BsYXkA</data>
 				<key>Disabled</key>
@@ -364,7 +387,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on AMD</string>
+				<string>Inject &quot;IOName&quot; as &quot;#display&quot; to disable graphics drivers on AMD</string>
 				<key>Value</key>
 				<string>#display</string>
 				<key>Disabled</key>
@@ -624,18 +647,24 @@
 		<string>0x02</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
-		<key>Mobile</key>
-		<true/>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string></string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,4</string>
+		<key>SmUUID</key>
+		<string></string>
+		<key>Mobile</key>
+		<true/>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>EfiVersion</key>
 		<string>1037.80.41.0.0</string>
+		<key>SerialNumber</key>
+		<string></string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -645,6 +674,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>***REMOVED***</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
