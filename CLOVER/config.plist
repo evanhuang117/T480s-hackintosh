@@ -628,7 +628,7 @@
 		<key>FirmwareFeatures</key>
 		<string>0xFC0FE137</string>
 		<key>Board-ID</key>
-		<string>Mac-53FDB3D8DB8CA971</string>
+		<string></string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>BoardVersion</key>
