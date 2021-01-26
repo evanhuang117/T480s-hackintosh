@@ -31,6 +31,7 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
  	 - Custom USB SSDT patch -> this may need to be changed depending on setup, use Hackintool it's easy
   	 - Completely disabled wake on USB (doesn't matter anyways as its a laptop)
 	 - Rename GPRW to XPRW and create an XPRW SSDT to override the original method
+	 - I think the renames and stuff broke Hackintool as I can no longer export USB configs anymore, use USBMap as an alternative
  - iMessage, Facetime, App Store
  - CS major street cred++++++++
 
