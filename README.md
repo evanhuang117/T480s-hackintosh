@@ -33,6 +33,8 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
 	 - Rename GPRW to XPRW and create an XPRW SSDT to override the original method
 	 - I think the renames and stuff broke Hackintool as I can no longer export USB configs anymore, use USBMap as an alternative
  - iMessage, Facetime, App Store
+ - USB-C Hotplug and unplug
+ - Thunderbolt 3 Hotplug, hot unplug instantly kernel panics
  - CS major street cred++++++++
 
 ## Not working
