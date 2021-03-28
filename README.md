@@ -24,6 +24,7 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
  - Wifi
  - Ethernet
  - Keyboard backlight
+ - Brightness keys
  - Volume keys
  - Power management is good, especially with undervolting
 	 - ~6hr+ of battery life, idle drain <3w
@@ -39,8 +40,6 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
 
 ## Not working
  - Power button LED flashes after waking from sleep
- - Brightness keys (ACPI problem)
- 	 - this is very weird because I have the correct SSDT hotpatch for fn keys...
  - Thunderbolt 3 hotplug - instant kernel panic, have to do another ACPI patch unfortunately
  	- I haven't tested plugging it in before boot (no hotplug) which I think will work
 
