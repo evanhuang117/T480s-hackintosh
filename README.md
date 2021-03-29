@@ -36,6 +36,7 @@ Full hotpatch configuration. Sleep is working but I completely disabled hibernat
  - iMessage, Facetime, App Store
  - USB-C Hotplug and unplug
  - Thunderbolt 3 Hotplug, hot unplug instantly kernel panics
+ - Clamshell mode with HDMI output
  - CS major street cred++++++++
 
 ## Not working
